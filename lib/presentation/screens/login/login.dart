@@ -115,7 +115,7 @@ class _LoginState extends State<Login> {
                 onTap: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterUser()));
                 },
-                child: const Text('Regístrate',style: TextStyle(fontSize: 16,color: Colors.blue,),),
+                child: const Text('Regístrarse',style: TextStyle(fontSize: 16,color: Colors.blue,),),
               ),
             ),
           ],
