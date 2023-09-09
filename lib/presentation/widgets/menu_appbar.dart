@@ -6,8 +6,8 @@ class MenuAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(      
-      title: Text('MyEmpleo',),
-      backgroundColor: Color.fromARGB(255, 46, 61, 90),
+      title: Text('PORTAL DE EMPLEO',),
+      backgroundColor: Color.fromARGB(255, 0, 0, 0),
       actions: [
         IconButton(
           onPressed: (){},
