@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portal_de_empleo/presentation/screens/ofertas_empleo/register_employment.dart';
 import 'package:portal_de_empleo/presentation/screens/ofertas_empleo/second_page.dart';
+import 'package:portal_de_empleo/presentation/screens/third_page.dart';
 import '../screens/home_page.dart';
 
 
@@ -38,7 +39,7 @@ class MenuDrawer extends StatelessWidget {
             leading: Icon(Icons.work,color: Colors.black),
             title: Text('Empleos recomendados',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             onTap: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterEmployment()));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => TreePage()));
             }
           ),
             

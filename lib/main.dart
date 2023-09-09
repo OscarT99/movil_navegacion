@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portal_de_empleo/presentation/screens/home_page.dart';
 import 'package:portal_de_empleo/presentation/screens/login/login.dart';
 
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home:Login(),      
+      home:PrimeraPagina(),      
     );
   }
 
