@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:portal_de_empleo/datas/employment/employment_list.dart';
 import 'package:portal_de_empleo/domain/models/employment/employment.dart';
-import 'package:portal_de_empleo/presentation/screens/login/login.dart';
 import 'package:portal_de_empleo/presentation/screens/ofertas_empleo/second_page.dart';
 
 class RegisterEmployment extends StatefulWidget {

@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portal_de_empleo/presentation/screens/ofertas_empleo/register_employment.dart';
 import 'package:portal_de_empleo/presentation/screens/ofertas_empleo/second_page.dart';
-
 import '../screens/home_page.dart';
-import '../screens/third_page.dart';
 
 
 class MenuDrawer extends StatelessWidget {

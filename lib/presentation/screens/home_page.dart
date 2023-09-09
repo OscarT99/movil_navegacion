@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:portal_de_empleo/presentation/screens/ofertas_empleo/second_page.dart';
 import 'package:portal_de_empleo/presentation/widgets/menu_appbar.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 
