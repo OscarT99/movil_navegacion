@@ -16,7 +16,7 @@ class MenuDrawer extends StatelessWidget {
         children: [
           const DrawerHeader(
             child: Text('',style: TextStyle(fontSize: 30)),
-            decoration: BoxDecoration(image: DecorationImage(image: AssetImage('../../assets/images/preparacion.entrevista-turistium.jpg'),
+            decoration: BoxDecoration(image: DecorationImage(image: AssetImage('assets/images/preparacion.entrevista-turistium.jpg'),
             ),
           ),
         ),          
@@ -24,7 +24,7 @@ class MenuDrawer extends StatelessWidget {
             leading: Icon(Icons.home,color: Colors.black),
             title: Text('Inicio',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             onTap: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => primeraPagina()));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => PrimeraPagina()));
             }
           ),
 

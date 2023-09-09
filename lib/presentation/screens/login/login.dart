@@ -34,7 +34,7 @@ class _LoginState extends State<Login> {
     );
 
     if (user.name.isNotEmpty) {      
-      Navigator.push(context, MaterialPageRoute(builder: (context) => primeraPagina()));
+      Navigator.push(context, MaterialPageRoute(builder: (context) => PrimeraPagina()));
     } else {      
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(
         content: Text('Correo electrónico o contraseña incorrectos'),
@@ -52,7 +52,7 @@ class _LoginState extends State<Login> {
             const SizedBox(height: 20),
             Center(
               child: Image.asset(
-                '../../assets/images/portalEmpleo.jpeg',
+                'assets/images/portalEmpleo.jpeg',
                 width: 200,
                 height: 200,
               ),
