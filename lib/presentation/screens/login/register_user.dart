@@ -24,7 +24,7 @@ class _RegisterUserState extends State<RegisterUser> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.black ,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
