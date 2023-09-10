@@ -49,7 +49,7 @@ class _LoginState extends State<Login> {
         padding: const EdgeInsets.all(10.0),
         child: Column(
           children: [
-            const SizedBox(height: 20),
+            const SizedBox(height: 100),
             Center(
               child: Image.asset(
                 'assets/images/portalEmpleo.jpeg',

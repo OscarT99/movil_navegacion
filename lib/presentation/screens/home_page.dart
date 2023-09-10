@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:portal_de_empleo/presentation/screens/second_page.dart';
+import 'package:portal_de_empleo/presentation/screens/ofertas_empleo/register_employment.dart';
+import 'package:portal_de_empleo/presentation/screens/ofertas_empleo/second_page.dart';
 import 'package:portal_de_empleo/presentation/widgets/menu_appbar.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 
@@ -35,10 +36,11 @@ class PrimeraPagina extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(horizontal: 30.0),
                 child: Column(
                   children: [
-                    SizedBox(height: 60.0),
+                    SizedBox(height: 20.0),
                     ElevatedButton(
                       onPressed: () {
-                        // Acción del botón 1
+                        Navigator.push(context,
+                         MaterialPageRoute(builder: (context) => RegisterEmployment()));
                       },
                       style: ElevatedButton.styleFrom(
                         primary: Colors.blue,
@@ -59,7 +61,8 @@ class PrimeraPagina extends StatelessWidget {
                     SizedBox(height: 30.0),
                     ElevatedButton(
                       onPressed: () {
-                        // Acción del botón 2
+                        Navigator.push(context,
+                         MaterialPageRoute(builder: (context) => secondPage()));
                       },
                       style: ElevatedButton.styleFrom(
                         primary: Colors.black,

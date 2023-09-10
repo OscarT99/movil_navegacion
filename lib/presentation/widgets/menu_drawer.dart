@@ -1,8 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:portal_de_empleo/presentation/screens/second_page.dart';
-
+import 'package:flutter/material.dart';                                                                                                                   
+import 'package:portal_de_empleo/presentation/screens/ofertas_empleo/second_page.dart';
+import 'package:portal_de_empleo/presentation/screens/third_page.dart';
 import '../screens/home_page.dart';
-import '../screens/third_page.dart';
 
 
 class MenuDrawer extends StatelessWidget {
@@ -15,7 +14,7 @@ class MenuDrawer extends StatelessWidget {
         children: [
           const DrawerHeader(
             child: Text('',style: TextStyle(fontSize: 30)),
-            decoration: BoxDecoration(image: DecorationImage(image: AssetImage('assets/images/preparacion.entrevista-turistium.jpg'),
+            decoration: BoxDecoration(image: DecorationImage(image: AssetImage('assets/images/apple.png'),
             ),
           ),
         ),          
