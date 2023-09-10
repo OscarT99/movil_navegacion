@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:portal_de_empleo/datas/employment/employment_list.dart';
@@ -157,7 +159,7 @@ class _RegisterEmploymentState extends State<RegisterEmployment> {
                 onPressed: _pickImage,
                 child: Text('Selecciona foto'),
               ),
-              if (image.isNotEmpty) Image.network(image),
+              if (image.isNotEmpty) Image.file(File(image)),
               Padding(
                 padding: EdgeInsets.all(12.0),
                 child: ElevatedButton(
