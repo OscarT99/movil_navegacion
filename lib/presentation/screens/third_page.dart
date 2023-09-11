@@ -72,9 +72,9 @@ class _TreePageState extends State<TreePage> {
                     size: 70,
                   ),
                   Text(
-                    'FILTRO DE OFERTAS',
+                    'OFERTAS RECOMENDADAS',
                     style: TextStyle(
-                      fontSize: 30,
+                      fontSize: 25,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -89,7 +89,7 @@ class _TreePageState extends State<TreePage> {
                   ),
                   ElevatedButton(
                     onPressed: () {
-                      // Verificar si se ha seleccionado una oferta
+                      // Verificamos si se ha seleccionado una oferta
                       if (_selectedOfferIndex != -1) {
                         showDialog(
                           context: context,
@@ -180,10 +180,10 @@ class _TreePageState extends State<TreePage> {
                 children: [
                   Image.asset(
                     oferta['imagen'] as String,
-                    width: 220,
-                    height: 220,
+                    width: 380,
+                    height: 380,
                   ),
-                  const SizedBox(height: 12),
+                  const SizedBox(height: 5),
                   ListTile(
                     leading: Icon(
                       Icons.work,
@@ -297,7 +297,6 @@ class _TreePageState extends State<TreePage> {
               ),
 
               const SizedBox(height: 3),
-              // ... Resto del contenido de la oferta
             ],
           ),
         ),
