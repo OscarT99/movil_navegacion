@@ -14,7 +14,7 @@ class MenuDrawer extends StatelessWidget {
         children: [
           const DrawerHeader(
             child: Text('',style: TextStyle(fontSize: 30)),
-            decoration: BoxDecoration(image: DecorationImage(image: AssetImage('assets/images/apple.png'),
+            decoration: BoxDecoration(image: DecorationImage(image: AssetImage('assets/images/job.png'),
             ),
           ),
         ),          
